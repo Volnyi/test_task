@@ -18,7 +18,7 @@ name_Giovanni_next_element = "//td[contains(text(), 'Giovanni Rovelli')]/followi
 number_of_records = "//*[contains(text(), 'Number of Records')]"
 sql_table = "//table[@class='w3-table-all notranslate']"
 
-"""true inform"""
+"""test 1"""
 adress_Giovanni = 'Via Ludovico il Moro 22'
 
 """test 2"""

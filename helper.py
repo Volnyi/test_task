@@ -33,7 +33,7 @@ def waiting(driver, element, count=2):
                 EC.presence_of_element_located((By.XPATH, element)))
         except TimeoutException as e:
             print('Something went wrong... Error: ' + str(e))
-        if mytime == False:
+        if not mytime:
             if count == 0:
                 assert False
             else:
